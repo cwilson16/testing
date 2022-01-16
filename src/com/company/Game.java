@@ -40,17 +40,17 @@ public class Game
     public void showPossibleScores()
     {
         //aces
-        System.out.println("Aces: " + (hand.ones));
+        System.out.println("Aces:        " + (hand.ones));
         //twos
-        System.out.println("Twos: " + (2 * hand.twos));
+        System.out.println("Twos:        " + (2 * hand.twos));
         //threes
-        System.out.println("Threes: " + (3 * hand.threes));
+        System.out.println("Threes:      " + (3 * hand.threes));
         //fours
-        System.out.println("Fours: " + (4 * hand.fours));
+        System.out.println("Fours:       " + (4 * hand.fours));
         //fives
-        System.out.println("Fives: " + (5 * hand.fives));
+        System.out.println("Fives:       " + (5 * hand.fives));
         //sixes
-        System.out.println("Sixes: " + (6 * hand.sixes));
+        System.out.println("Sixes:       " + (6 * hand.sixes));
 
         //3ofakind
         if(hand.triple)
@@ -73,11 +73,11 @@ public class Game
         //fullhouse
         if(hand.fullHouse)
         {
-            System.out.println("Full House: 25");
+            System.out.println("Full House:   25");
         }
         else
         {
-            System.out.println("Full House: 0");
+            System.out.println("Full House:  0");
         }
 
         //smstraight
@@ -103,15 +103,15 @@ public class Game
         //yahtzee
         if(hand.yahtzee)
         {
-            System.out.println("YAHTZEE: 50");
+            System.out.println("YAHTZEE:     50");
         }
         else
         {
-            System.out.println("YAHTZEE: 0");
+            System.out.println("YAHTZEE:     0");
         }
 
         //chance
-        System.out.println("Chance: " + hand.handSum);
+        System.out.println("Chance:      " + hand.handSum);
     }
 
     public Game()
