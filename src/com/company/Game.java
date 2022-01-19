@@ -73,7 +73,7 @@ public class Game
         //fullhouse
         if(hand.fullHouse)
         {
-            System.out.println("Full House:   25");
+            System.out.println("Full House:  25");
         }
         else
         {
