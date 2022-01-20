@@ -17,7 +17,7 @@ public class Die implements Comparable<Die>
     public void roll()
     {
         Random rand = new Random();
-        faceValue = rand.nextInt(6) + 1;
+        this.faceValue = rand.nextInt(6) + 1;
     }
 
     @Override public int compareTo(Die d)
